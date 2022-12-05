@@ -9,13 +9,14 @@
 // console.log("sum", sum);
 
 let star = "";
+let result = ' ';
 for (let x = 0; x <= 5; x++) {
   for (let y = 0; y <= x; y++) {
-    star += " *";
+    star += "*";
   }
   star += "\n";
 }
 console.log(star.length);
-console.log(star);
+console.log(star , result);
 
 
