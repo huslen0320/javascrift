@@ -1,7 +1,12 @@
 .container {
     width: 1280px;
     margin : 0 auto;
+    background-color: beige;
 }
 input, select{
     width: 100%;
+}
+.col-3{
+    background-color: wheat;
+    border: 1;
 }
